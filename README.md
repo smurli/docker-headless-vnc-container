@@ -1,5 +1,11 @@
 # Docker container images with "headless" VNC session
 
+##Note:
+Updated the following from original fork:
+* Installed dejavu-sans-mono-fonts
+* Workarround for vncserver not starting in latest centos. Bug: https://bugs.centos.org/view.php?id=15667
+* Installed sublime text
+
 This repository contains a collection of Docker images with headless VNC environments.
 
 Each Docker image is installed with the following components:
