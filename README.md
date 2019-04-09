@@ -61,7 +61,8 @@ Usage is **similar** for all provided images, e.g. for `consol/centos-xfce-vnc`:
 
 - Build an image from scratch:
 
-      docker build -t consol/centos-xfce-vnc centos-xfce-vnc
+      docker build -t smurli/centos-xfce-vnc -f Dockerfile.centos.xfce.vnc .
+
 
 # Connect & Control
 If the container is started like mentioned above, connect via one of these options:
