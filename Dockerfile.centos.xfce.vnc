@@ -51,6 +51,9 @@ RUN yum install -y dejavu-sans-mono-fonts*
 RUN $INST_SCRIPTS/firefox.sh
 RUN $INST_SCRIPTS/chrome.sh
 
+### Install vscode
+RUN $INST_SCRIPTS/vscode.sh
+
 ### Install xfce UI
 RUN $INST_SCRIPTS/xfce_ui.sh
 ADD ./src/common/xfce/ $HOME/
